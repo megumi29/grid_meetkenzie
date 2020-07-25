@@ -1,0 +1,21 @@
+div {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.header {
+  background-color: rgb(77, 149, 177);
+}
+
+.menu {
+  background-color: rgb(214, 118, 118);
+}
+
+.content {
+  background-color: rgb(226, 198, 107);
+}
+
+.footer {
+  background-color: rgb(134, 223, 189);
+}
