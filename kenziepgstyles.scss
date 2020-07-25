@@ -1,0 +1,77 @@
+/* Base Styles */
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.link,
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+h1 {
+  line-height: 0;
+  color: rgb(22, 88, 231);
+  font-size: 200%;
+}
+
+h2 {
+  font-weight: 150;
+  font-size: 110%;
+}
+
+/* Block Styles */
+.falcuity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+}
+
+.kenziepage_video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.students_section {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.avatarimg {
+  width: 70%;
+}
+
+.meetkenzie {
+  padding: 5%;
+}
+
+/* Desktop Styles */
+@media (min-width: 550px) {
+  .kenziepage_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+  }
+
+  .meetkenzie {
+    padding: 2%;
+  }
+
+  .avatarimg {
+    width: 80%;
+  }
+
+  .falcuity {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+  }
+}

@@ -1,0 +1,102 @@
+/* Base Styles */
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.link,
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+h1 {
+  line-height: 0;
+  color: #1658e7;
+  font-size: 200%;
+}
+
+h2 {
+  font-weight: 150;
+  font-size: 110%;
+}
+
+/* Block Styles */
+.falcuity {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.kenziepage_video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.students_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.avatarimg {
+  width: 70%;
+}
+
+.meetkenzie {
+  padding: 5%;
+}
+
+/* Desktop Styles */
+@media (min-width: 550px) {
+  .kenziepage_video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    right: 5%;
+  }
+  .meetkenzie {
+    padding: 2%;
+  }
+  .avatarimg {
+    width: 80%;
+  }
+  .falcuity {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+  }
+}
+/*# sourceMappingURL=kenziepgstyles.css.map */
